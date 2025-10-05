@@ -1,0 +1,119 @@
+/* 以下在畫面縮小時，必須再調整margin */
+.icon {
+    width: 200px;
+    margin-left: 40px;
+}
+
+/* 以下可試試用boostrap */
+.offcanvas-header .btn-close {
+    border: 1px solid grey;
+}
+
+
+.nav-2 {
+    margin-right: 40px;
+}
+
+
+
+.navbar-nav img {
+    width: 25px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#carouselExampleAutoplaying {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.main-intro .first img {
+    display: block;
+    margin: 0 auto;
+    /* width: auto; */
+    height: 390px;
+}
+
+
+
+.main-merchant {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main-bestseller .best-merchant {
+    display: flex;
+}
+
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 94%;
+    background-color: rgb(230, 228, 228);
+}
+
+
+
+.footer div:hover {
+    cursor: pointer;
+}
+
+
+
+.qa {
+    display: flex;
+    align-items: center;
+    padding: 8px 13px 12px;
+    color: aliceblue;
+    background-color: rgb(156, 154, 155);
+    position: fixed;
+    bottom: 0;
+    margin-left: 1300px;
+}
+
+
+
+.qa:hover {
+    cursor: pointer;
+}
+
+
+
+.best-merchant {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}

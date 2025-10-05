@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <!-- Navbar-->
+
+    <nav class="navbar navbar-expand-xl bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+
+            <a class="icon navbar-brand order-2 order-xl-1" href="#"><img class="icon"
+                    src="https://img.shoplineapp.com/media/image_clips/616937dec050a800175a57ac/original.png?1634285534"
+                    alt=""></a>
+
+            <div class="order-1 order-xl-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="nav-1 navbar-nav">
+                        <a class="nav-link" href="#">首頁</a>
+                        <a class="nav-link" href="#">所有商品</a>
+                        <a class="nav-link" href="#">麵麵</a>
+                        <a class="nav-link" href="#">辣醬</a>
+                        <a class="nav-link" href="#">冬粉</a>
+                        <a class="nav-link" href="#">奶茶</a>
+                        <a class="nav-link" href="#">爆米花</a>
+                        <a class="nav-link" href="#">果凍</a>
+                        <a class="nav-link" href="#">商品組合</a>
+                        <a class="nav-link" href="#">會員好康</a>
+                        <a class="nav-link" href="#">常見問題</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-2 navbar-nav order-3">
+                <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                <div class="d-flex">
+                    <a class="nav-link d-none d-xl-inline" href="#"><img src="imgs/search.png" alt=""></a>
+                    <a class="nav-link" href="#"><img src="imgs/account.png" alt=""></a>
+                    <a class="nav-link" href="#"><img src="imgs/grocery-store.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </nav>
+
+
+
+    <div class="main">
+        <div class="login-area">
+            <div class="top-button">
+                <button id="register-toggle">註冊</button>
+                <button id="login-toggle" class="active-toggle">登入</button>
+            </div>
+            <div class="form-area">
+                <form id="register-form">
+                    <div><button>使用Facebook註冊</button></div>
+                    <div>使用Email註冊</div>
+                    <div><input type="text" placeholder="用戶名"></div>
+                    <div><input type="text" placeholder="Email"></div>
+                    <div><input type="text" placeholder="密碼"></div>
+                    <div><label for="birth">出生日期</label></div>
+                    <div><input type="month"></div>
+                    <div id="info"><input type="checkbox" name="agree" id="yes"><label for="agree">我願意接收 小曼
+                            的最新消息、優惠及服務推廣相關資訊</label></div>
+                    <div id="messenger" class="messenger"><button>使用Messenger傳送</button></div>
+                    <div id="terms"><input type="checkbox" name="agree" id="yes"><label for="agree">我同意網站<a
+                                href="#">服務條款</a>及<a href="#">隱私政策</a></label></div>
+                    <div><button>立即加入</button></div>
+                </form>
+
+                <form id="login-form" class="active-form">
+                    <div><button>使用Facebook登入</button></div>
+                    <div>使用Email登入</div>
+                    <div><input type="text" placeholder="Email"></div>
+                    <div><input type="text" placeholder="密碼"></div>
+                    <div><button>立即登入</button></div>
+                    <div><a href="#">忘記密碼</a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="bottom">
+        <div class="footer">
+            <div class="left">
+                <div>XXX © XX股份有限公司｜統編 xxxxxxxx</div>
+                <div>退換貨政策 | 常見Q&A</div>
+                <div>聯絡地址 | 台中市南區忠明南路93號</div>
+            </div>
+            <div class="right">
+                <div>客服專線：0000-000-000 ｜ 平日 09 : 00 - 17 : 00</div>
+                <div>Mail | xxx.master@gmail.com</div>
+                <div>天王星產物產品責任保險 | 0000字第000000000號</div>
+            </div>
+        </div>
+        <div class="qa">
+            <div class="sticky">問問題</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

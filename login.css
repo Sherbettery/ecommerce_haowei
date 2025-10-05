@@ -1,0 +1,87 @@
+ .main {
+         display: flex;
+         justify-content: center;
+         border: 1px solid #b1b1b3;
+         border-top: none;
+
+         width: 600px;
+         /* 問題:為何設置margin會讓.main無法置中 */
+         /* margin: 100px; */
+         margin-top: 100px;
+         margin-bottom: 100px;
+ }
+
+ .form-area {
+         padding: 30px;
+ }
+
+ .top-button {
+         display: flex;
+         justify-content: center;
+         width: 600px;
+ }
+
+ #register-toggle {
+         flex-grow: 1;
+ }
+
+ #login-toggle {
+         flex-grow: 1;
+ }
+
+ .login-area div {
+         display: flex;
+         justify-content: center;
+ }
+
+ #info,
+ #messenger,
+ #terms {
+         display: block;
+ }
+
+ form {
+         display: none;
+ }
+
+ .active-form {
+         display: block;
+ }
+
+ .top-button button {
+         background-color: rgb(230, 228, 228);
+         /* 問題: 為何button邊界會與.main共用 (取消button的border會導致.main的左右border也消失，但上不會)*/
+         /* border: none; */
+         border-top: 1px solid #b1b1b3;
+         border-left: 1px solid #b1b1b3;
+         border-right: 1px solid #b1b1b3;
+         border-bottom: 1px solid #b1b1b3;
+         /* border: 1px solid #b1b1b3; */
+ }
+
+ .top-button.active-toggle {
+         cursor: default;
+         background-color: transparent;
+         border-bottom: none;
+         /* border-top-right-radius: 0.5em;
+         border-top-left-radius: 0.5em; */
+ }
+
+ #login-button {
+         border-top-right-radius: 0.5em;
+ }
+
+ #register-button {
+         border-top-left-radius: 0.5em;
+ }
+
+
+ #login-toggle.active-toggle {
+         /* 為啥加了.active-toggle變無效 */
+         border-top-left-radius: 0.5em;
+ }
+
+ #register-toggle.active-toggle {
+         /* 為啥加了.active-toggle變無效 */
+         border-top-right-radius: 0.5em;
+ }
